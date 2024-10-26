@@ -17,6 +17,7 @@
 
 cmake_minimum_required(VERSION 3.18 FATAL_ERROR)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CUDA_COMPILER "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/nvcc.exe")
 
 include(CheckLanguage)
 include(cmake/modules/set_ifndef.cmake)
